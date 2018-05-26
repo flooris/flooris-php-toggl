@@ -1,0 +1,22 @@
+{
+    "name": "flooris/php-toggl",
+    "description": "PHP SDK for Toggl, the time tracker app",
+    "keywords": ["php", "toggl", "productivity", "timetracker"],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.5.9",
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel White",
+            "email": "hi@dwhite.me"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+          "Flooris\\PhpToggl\\": "src/Flooris/PhpToggl"
+        }
+    }
+}
